@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=head, initial-scale=1.0">
     <title>BookingHotel</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                'Startfont': ['"Poppins"', 'sans-serif'],
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body class="mx-0">
+<body class="mx-0 font-Startfont">
     <header class="flex bg-gradient-to-r from-[#F5FFFE] to-[#EDFFEF]">
         <div class="pl-[100px] pr-[50px] w-[1440px] h-[770px]">
             <div class="flex gap-[80px] py-5">
@@ -22,7 +36,7 @@
             </div>
             <div class="mt-[70px]">
                 <p class="">Mountains | Plans | Beaches</p>
-                <h1 class="text-[80px] font-bold text-[#42A66A] py-5">Find <span href="#" class="font-normal text-[#080E15]">Your Perfect</span> Place <span href="#" class="font-normal text-[#080E15]">to your</span> Family</h1>
+                <h1 class="text-[70px] font-bold text-[#42A66A] py-5">Find <span href="#" class="font-normal text-[#080E15]">Your Perfect</span> Place <span href="#" class="font-normal text-[#080E15]">to your</span> Family</h1>
                 <p class="pb-10 text-[#969696]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sint odit? Sint fugit in possimus eveniet earum, repellat et tempora, porro iste obcaecati a dolores facere eum ut cum aliquam?</p>
                 <a href="#" class="border py-3 px-7 bg-[#42A66A] rounded-full text-white hover:bg-[#27633f]">Register</a>
             </div>
@@ -134,7 +148,7 @@
                     </div>
                     <div class="">
                         <a href="#" class="absolute -top-[40px] -left-[20px] -z-10"><img src="./vektor.png" alt=""></a>
-                        <a href="#" class="absolute -bottom-[20px] right-[90px] -z-10"><img src="./vektor.png" alt=""></a>
+                        <a href="#" class="absolute bottom-[60px] right-[80px] -z-10"><img src="./vektor.png" alt=""></a>
                     </div>
                 </div>
             </div>
